@@ -9,6 +9,11 @@
     color: darkgrey;
 }
 
+.subtitle {
+    color: darkgrey;
+    font-weight: normal;
+}
+
 img {
     width: 600px;
 }
