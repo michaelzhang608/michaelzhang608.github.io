@@ -1,0 +1,9 @@
+img {
+    width: 700px;
+}
+
+.white-frame {
+    padding: 20px;
+    background-color: white;
+    border: 0;
+}
