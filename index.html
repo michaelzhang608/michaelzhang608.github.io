@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-		crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="styles.css">
 
+	<!-- Local JS and CSS -->
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="styles.css">
 
 	<title>Michael Zhang - Generative Art</title>
 </head>
@@ -22,30 +26,102 @@
 <body>
 	<div class="container">
 		<br>
-		<h6>generative art - michael zhang <br><a style="text-decoration: none;" href="https://www.instagram.com/the_mmoma_gallery/">insta</a></h6>
+		<h6>generative art - michael zhang <br>
+			<a class="header-link" href="https://www.instagram.com/the_mmoma_gallery/">insta</a> |
+			<a class="header-link" href="mailto:michael.zhang@queensu.ca">email</a>
+		</h6>
 		<br>
+
+		<!-- Set 2 -->
 		<div>
-			<h1>
+			<h1 id="2">
 				Asteroids
 				<small class="text-muted">Mar 29th, 2022</small>
 			</h1>
 			<h5>Made with Python Turtle. <a href="set2/2.py">code</a></h5>
-			<img class="white-frame" src="set2/250.png">
+			<div class="row flex-nowrap">
+				<div class="col"><img class="white-frame" src="set2/250.png"></div>
+				<div class="col" markdown="1">
+					<br>
+					<br>
+					<ul>
+						<li>started by jotting down <a href="javascript:void(0)" class="preview"
+								data-img="set2/brainstorm.png" title="brainstorm">some ideas</a></li>
+						<li>expanded on the concept of <a href="javascript:void(0)" class="preview"
+								data-img="set2/36.png" title="connected circles">connected circles</a></li>
+						<li>next, filled in the circles and went crazy with the <a href="javascript:void(0)"
+								class="preview" data-img="set2/96.png" title="colors">colors</a></li>
+						<li>realized that the scene looked a bit like space, so added <a href="javascript:void(0)"
+								class="preview" data-img="set2/252.png" title="elliptical shooting stars">shooting stars
+								in the background</a></li>
+						<li>finally, added a background, elements on top, then the foreground, concluding at
+							iteration v250 (as seen to the left)</li>
+					</ul>
+					- Mike<br>
+					<i>
+						(had essays due for both ethics and business technology classes but decided to do this instead.
+						oh well)
+					</i>
+					<br>
+					<a href="https://michaelzhang608.github.io/index.html/#2">share</a>
+				</div>
+			</div>
 		</div>
 		<br>
 		<br>
+		<!-- End of Set 2 -->
+
+		<!-- Set 1 -->
 		<div>
-			<h1>
+			<h1 id="1">
 				Boxes
 				<small class="text-muted">Mar 27th, 2022</small>
 			</h1>
 			<h5>Made with Python Turtle. <a href="set1/1.py">code</a></h5>
-			<img src="set1/1.png">
-			<img src="set1/2.png">
-			<img src="set1/3.png">
-			<img src="set1/4.png">
+			<div class="row flex-nowrap">
+				<div class="col"> <img src="set1/1.png">
+					<img src="set1/2.png">
+					<img src="set1/3.png">
+					<img src="set1/4.png">
+				</div>
+				<div class="col">
+					<br>
+					<br>
+					<ul>
+						<li>began with the concept of a <a href="javascript:void(0)" class="preview"
+								data-img="set1/mesh.png" title="mesh">rectangular mesh</a></li>
+						<li>started adding some <a href="javascript:void(0)" class="preview" data-img="set1/mesh2.png"
+								title="variability">variability</a></li>
+						<li>then, tried using the fibonacci sequence to add predictable randomness (results were meh. i
+							found that just pure randomness looked nicer) <a href="javascript:void(0)" class="preview"
+								data-img="set1/mesh3.png" title="fib">view</a></li>
+						<li>started messing around with adding <a href="javascript:void(0)" class="preview"
+								data-img="set1/mesh4.png" title="circular">circular movements</a> between each row and
+							column lines</li>
+						<li>went crazy shifting around the grid and playing with <a href="javascript:void(0)"
+								class="preview" data-img="set1/mesh5.png" title="gradients">gradients in line width and
+								color</a></li>
+						<li>after 254 iterations, chose these on the left as my favourites</li>
+					</ul>
+					- Mike<br>
+					<i>
+						am using Python's Turtle module right now, but have plans to eventually transition to more
+						complex ML algorithms
+					</i>
+					<br>
+					<a href="https://michaelzhang608.github.io/index.html/#1">share</a>
+				</div>
+			</div>
+		<!-- End of Set 1 -->
+
 		</div>
+		<footer>
+			<div class="text-center">
+				<a href="#">back to top</a>
+				<br>
+				<br>
+			</div>
+		</footer>
 	</div>
 </body>
-
 </html>
