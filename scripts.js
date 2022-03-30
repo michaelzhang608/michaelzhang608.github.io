@@ -1,4 +1,10 @@
+
+
 $(document).ready(() => {
+
+    // Initialization functions
+    updateScreen();
+
 
     // Preview image hover function
     $(".preview").popover({
@@ -19,4 +25,18 @@ $(document).ready(() => {
         navigator.clipboard.writeText(loc)
         return false;
     })
+
+    // Toggle flex-nowrap at 801 px
+    $(window).resize(function () {
+        updateScreen();
+    });
 })
+
+function updateScreen() {
+    console.log($(window).width())
+    if ($(window).width() <= 801 || screen.width <= 801) {
+        $('.row-main').removeClass('flex-nowrap');
+    } else {
+        $('.row-main').addClass('flex-nowrap');
+    }
+}
