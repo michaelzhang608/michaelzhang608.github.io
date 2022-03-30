@@ -13,29 +13,29 @@ img {
     width: 600px;
 }
 
-@media only screen and (min-width:320px) and (max-width:801px) {
+@media only screen and (min-width:10px) and (max-width:801px) {
     img {
-        width: 500px;
+        width: 80vw;
     }
     h1 {
-        font-size: 65px;
+        font-size: 45px;
     }
     h5 {
-        font-size: 30px;
+        font-size: 20px;
     }
     h6 {
-        font-size: 28px;
+        font-size: 20px;
     }
     body {
-        font-size: 30px;
+        font-size: 20px;
     }
     .only-desktop {
         display: none;
     }
 }
 
-@media only screen and (min-width:802px) and (max-width:990px) {
+@media only screen and (min-width:802px) and (max-width:991px) {
     img {
-        width: 450px;
+        width: 50vw;
     }
 }
