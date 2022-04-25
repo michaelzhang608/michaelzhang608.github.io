@@ -2,6 +2,9 @@
     padding: 20px;
     background-color: white;
     border: 0;
+    box-shadow: -3px 3px 10px 1px rgb(230, 230, 230);
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .header-link {
