@@ -1,5 +1,5 @@
 .white-frame {
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     border: 0;
     box-shadow: -3px 3px 10px 1px rgb(230, 230, 230);
@@ -15,6 +15,12 @@
 .subtitle {
     color: darkgrey;
     font-weight: normal;
+}
+
+.pinned {
+    font-style: italic;
+    margin-bottom: 0;
+    color: darkgrey;
 }
 
 img {
