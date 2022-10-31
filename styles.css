@@ -31,6 +31,20 @@ img {
     width: 200px;
 }
 
+/* Image Zoom Trick */
+input[type=checkbox] {
+    display: none;
+  }
+  .zoom-container img {
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+  }
+  input[type=checkbox]:checked ~ label > img {
+    transform: scale(1.8);
+    cursor: zoom-out;
+  }
+
+
 @media only screen and (min-width:10px) and (max-width:801px) {
     img {
         width: 80vw;
