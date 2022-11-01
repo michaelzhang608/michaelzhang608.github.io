@@ -61,6 +61,7 @@
 		</h6>
 		<br>
 
+
 		<!-- Set 8 -->
 		<div>
 			<h6 class="pinned"><i class="fa-sharp fa-solid fa-thumbtack"></i> pinned post</h6>
@@ -102,7 +103,37 @@
 		</div>
 		<br>
 		<br>
-		<!-- End of Set 7 -->
+		<!-- End of Set 8 -->
+
+		<!-- Submission form -->
+		<div class="card" id="submission-form">
+			<div class="card-body">
+				<h5 class="card-title">art ideas submission</h5>
+				<h6 class="card-subtitle mb-2 text-muted">give me new art ideas!</h6>
+				<p class="card-text">always looking for new inspo. shoot me an idea and I'll create those I find interesting</p>
+				<form id="suggestion-form">
+					<div class="row">
+						<div class="col-8">
+							<input type="text" name="message" class="form-control" placeholder="cool art idea" required>
+						</div>
+						<div class="col-4">
+							<input type="text" name="name" class="form-control" placeholder="your name" required>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-4">
+							<button type="submit">Submit</button>
+						</div>
+						<div class="col-8">
+							most recent idea submission: <span id="most-recent-idea"></span> <span id="most-recent-name"></span><img id="submission-loading" src="loading.gif">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<br>
+		<br>
 
 		<!-- Set 7 -->
 		<div>
