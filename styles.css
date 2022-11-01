@@ -44,6 +44,9 @@ input[type=checkbox] {
     cursor: zoom-out;
   }
 
+:root {
+    --animate-delay: 0.1s;
+}
 
 @media only screen and (min-width:10px) and (max-width:801px) {
     img {
