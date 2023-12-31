@@ -39,6 +39,26 @@ img {
     font-weight: bold;
 }
 
+#song-snippets {
+    width: 70%;
+}
+
+#song-snippets td, th {
+    font-size: small;
+    vertical-align: middle;
+}
+
+audio {
+    height: 30px;
+    width: 40vw;
+    margin-right: 20px;
+}
+
+.section-header {
+    color: darkcyan;
+}
+
+
 /* Image Zoom Trick */
 input[type=checkbox] {
     display: none;
@@ -66,16 +86,19 @@ input[type=checkbox] {
         width: 80vw;
     }
     h1 {
-        font-size: 45px;
+        font-size: 25px;
+    }
+    small {
+        font-size: 20px;
     }
     h5 {
-        font-size: 20px;
+        font-size: 15px;
     }
     h6 {
         font-size: 20px;
     }
     body {
-        font-size: 20px;
+        font-size: 15px;
     }
     .only-desktop {
         display: none;
@@ -83,10 +106,22 @@ input[type=checkbox] {
     #submission-form {
         width: 100%;
     }
+    #song-snippets {
+        width: 95%;
+    }
+    audio {
+        margin-right: 0;
+    }
 }
 
 @media only screen and (min-width:802px) and (max-width:991px) {
     img {
         width: 50vw;
+    }
+    #song-snippets {
+        width: 95%;
+    }
+    audio {
+        margin-right: 0;
     }
 }
